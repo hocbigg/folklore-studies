@@ -25,11 +25,6 @@ The Folklore Studies curriculum is a **complete education in Folklore Studies** 
 Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
 they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
 
-**Process**. Students can work through the curriculum alone or in groups, in order or out of order.
-
-- We recommend doing all courses in **Core**, only skipping a course when you are certain that you've already learned the material previously.
-- For simplicity, we recommend working through courses (especially Core) in order from top to bottom. Some students choose to study multiple courses at a time in order to vary the material they are working on in a day/week.
-- The courses in the Advanced section are electives. Choose one track to specialize in and complete all the courses listed under it.
 
 **[How to contribute](/CONTRIBUTING.html)**
 
@@ -37,70 +32,179 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 
 - ...
 - You can also interact through [GitHub issues](https://github.com/hocbigg/folklore-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
+- Join our Discord server (for discussions around this and other curricula): 
+    
+    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
 # Curriculum
 
-# Folklore Studies
+## How to use this curriculum
 
-## Intro Folklore Studies
+### Core Path
 
-This phase introduces key definitions, genres, and the interdisciplinary nature of folklore studies.
+The following sections form the essential foundation of the discipline. Study them **in this exact order** to develop a coherent general understanding of what folklore is, how folklorists think, and how the field works:
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Introduction to Folklore | Establishes folklore as the study of everyday expressive culture, traditions, and vernacular creativity; defines core concepts like tradition, genre, and performance. | [*Folklore and Folklife: An Introduction* edited by Richard M. Dorson](https://archive.org/details/folklorefolklife00dors) | [Introduction to Folklore Studies](https://www.youtube.com/playlist?list=PLqMl6r3x6BUQ1ZzAMyo8OHkk3JoJKyTnK) |
-| Forms and Genres of Folklore | Explores major categories (verbal, material, customary) to recognize folklore in daily life and cultural contexts. | [*The Dynamics of Folklore* by Barre Toelken](https://archive.org/details/dynamicsoffolklo0000toel) | Covered in Introduction to Folklore Studies |
+1. I. Foundations of Folklore Studies  
+2. II. History and Theory of Folkloristics  
+3. III. Methods, Ethics, and Documentation  
+4. IV. Core Folklore Genres  
 
-## Core Folklore Studies
+These four sections (I–IV) give you the basic concepts, historical context, theoretical toolkit, research methods, and major categories of folklore. Finish them first, in sequence, before moving to anything else. 
 
-This phase covers historical development, theoretical frameworks, research methods, and key expressive forms. Subjects build sequentially.
+### Specialization Tracks
 
-| Subject | Prerequisites | Why study? | Book | Online Course |
-| --- | --- | --- | --- | --- |
-| History of Folklore Studies           | Introduction phase  | Traces the discipline's evolution from antiquarianism to modern folkloristics, including key scholars and shifts in focus. | [*Folklore and Folklife: An Introduction* edited by Richard M. Dorson](https://archive.org/details/folklorefolklife00dors) | [World Mythology](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNCG9Vq6gV9Zlz5b3t5xw9Q) (Crash Course series for historical context) |
-| Theories of Folklore and Tradition    | Introduction phase  | Examines concepts like tradition, performance, and context; introduces major theoretical approaches (e.g., structuralism, functionalism). | [*The Dynamics of Folklore* by Barre Toelken](https://archive.org/details/dynamicsoffolklo0000toel) | Covered in World Mythology |
-| Folklore Research Methods and Ethnography | Intro + History/Theory | Develops skills in observation, interviewing, and ethical fieldwork; essential for collecting and analyzing primary data. | [*Folklore and Folklife: An Introduction* edited by Richard M. Dorson](https://archive.org/details/folklorefolklife00dors) | [Myth, Ritual, and Symbolism](https://ocw.mit.edu/courses/21a-212-myth-ritual-and-symbolism-spring-2004/) (MIT OpenCourseWare) |
-| Verbal Folklore: Narrative and Oral Traditions | Intro + Genres     | Analyzes folktales, legends, myths, and personal narratives; explores structure, variation, and meaning. | [*The Folktale* by Stith Thompson](https://archive.org/details/folktale00thom) | [Greek and Roman Mythology](https://www.coursera.org/learn/mythology) |
-| Material Culture and Folklife         | Methods             | Studies tangible expressions (e.g., crafts, foodways, architecture) as cultural artifacts and processes. | [*Material Culture* by Henry Glassie](https://www.amazon.com/Material-Culture-Henry-Glassie/dp/0253335744) | Covered in Myth, Ritual, and Symbolism |
-| Customary Folklore: Ritual, Festival, and Belief | Verbal + Material  | Investigates rituals, festivals, superstitions, and customary practices; links to identity and community. | [*The Dynamics of Folklore* by Barre Toelken](https://archive.org/details/dynamicsoffolklo0000toel) | Covered in Greek and Roman Mythology |
+After completing sections I–IV, you have several directional paths you can choose from, depending on your interests. These are **not** required for a general understanding, but they allow you to go deeper in specific areas:
 
-## Advanced Folklore Studies
+- V. Regional, Ethnic, and Indigenous Traditions  
+  (focus: folklore across cultures, places, and peoples)
 
-### Narrative and Performance
+- VI. Applied and Public Folklore  
+  (focus: how folklore is used outside the university – museums, festivals, heritage work, public programs)
 
-| Subject | Prerequisites | Why study? | Book | Online Course |
-| --- | --- | --- | --- | --- |
-| Advanced Narrative Theory      | Core Verbal Folklore   | Explores structuralist, psychoanalytic, and postmodern approaches to tale types, motifs, and variation. | [*Morphology of the Folktale* by Vladimir Propp](https://archive.org/details/morphologyoffolk00prop) | Covered in Greek and Roman Mythology |
-| Folklore and Literature        | Advanced Narrative Theory | Examines mutual influences between oral traditions and written literature (e.g., fairy tales in literary adaptations). | [*The Folktale* by Stith Thompson](https://archive.org/details/folktale00thom) | Covered in Greek and Roman Mythology |
-| Performance Studies in Folklore| Core Theories + Verbal | Analyzes folklore as enacted in context (performance theory, framing, emergent meaning). | [*The Dynamics of Folklore* by Barre Toelken](https://archive.org/details/dynamicsoffolklo0000toel) | Covered in Myth, Ritual, and Symbolism |
-| Storytelling and Oral Performance | Performance Studies | Practical and theoretical study of contemporary storytelling revival, revivals, and performer-audience dynamics. | [*The Dynamics of Folklore* by Barre Toelken](https://archive.org/details/dynamicsoffolklo0000toel) |  |
+- VII. Contemporary and Digital Folklore  
+  (focus: folklore in modern life, cities, media, internet, and popular culture)
 
-### Regional and Ethnic Folklore
 
-| Subject | Prerequisites | Why study? | Book | Online Course |
-| --- | --- | --- | --- | --- |
-| Comparative Regional Traditions  | Core (all)          | Introduces methods for cross-cultural comparison of folklore across regions (e.g., European, African, Asian). | [*Folklore and Folklife: An Introduction* edited by Richard M. Dorson](https://archive.org/details/folklorefolklife00dors) | Covered in World Mythology |
-| American Folklore Traditions     | Comparative Regional| In-depth look at U.S. regional and occupational folklore (e.g., Appalachian, Cowboy, Maritime). | [*American Folklore: An Encyclopedia* edited by Jan Harold Brunvand](https://www.amazon.com/American-Folklore-Encyclopedia-Jan-Brunvand/dp/0815333503) |  |
-| Ethnic and Diasporic Folklore    | Comparative Regional| Examines folklore of immigrant, minority, and diasporic groups; issues of identity, hybridity, and continuity. | [*Folklore and Folklife: An Introduction* edited by Richard M. Dorson](https://archive.org/details/folklorefolklife00dors) |  |
-| Indigenous and Native Traditions | Ethnic and Diasporic| Focuses on Native American, First Nations, or global indigenous oral traditions and material culture (with ethical considerations). | [*Coming to Light* edited by Brian Swann](https://www.amazon.com/Coming-Light-Anthology-American-Literature/dp/067974358X) |  |
 
-### Material Culture and Public Folklore
+## I. Foundations of Folklore Studies
 
-| Subject | Prerequisites | Why study? | Book | Online Course |
-| --- | --- | --- | --- | --- |
-| Advanced Material Culture           | Core Material          | Deepens theoretical approaches to objects as cultural texts (e.g., semiotics of artifacts, vernacular architecture). | [*Material Culture* by Henry Glassie](https://www.amazon.com/Material-Culture-Henry-Glassie/dp/0253335744) | Covered in Myth, Ritual, and Symbolism |
-| Foodways and Bodylore               | Advanced Material      | Studies food traditions, body modification, and embodied practices as folklore. | [*The Dynamics of Folklore* by Barre Toelken](https://archive.org/details/dynamicsoffolklo0000toel) |  |
-| Public Folklore and Cultural Heritage| Core Methods + Material| Applied folklore in museums, festivals, policy, and intangible cultural heritage preservation (UNESCO frameworks). | [*The Dynamics of Folklore* by Barre Toelken](https://archive.org/details/dynamicsoffolklo0000toel) |  |
-| Folklore in Museums and Archives    | Public Folklore        | Curatorial practices, documentation standards, and ethical representation of folk materials. | [*The Dynamics of Folklore* by Barre Toelken](https://archive.org/details/dynamicsoffolklo0000toel) |  |
+### 1. What Is Folklore?
 
-### Contemporary and Digital Folklore
+| Topic | Resource |
+| --- | --- |
+| Definitions, scope, folk groups, tradition, variation | **[Richard M. Dorson (ed.), *Folklore and Folklife: An Introduction* (Archive.org)](https://archive.org/details/folklorefolklife0000unse)** + **[Alan Dundes, “Who Are the Folk?” (Archive.org)](https://archive.org/details/studyoffolklore00dund)** |
 
-| Subject | Prerequisites | Why study? | Book | Online Course |
-| --- | --- | --- | --- | --- |
-| Folklore in Popular Culture      | Core (all)             | Examines folklore in mass media, film, television, and commercial contexts (e.g., Disney adaptations). | [*The Vanishing Hitchhiker* by Jan Harold Brunvand](https://www.amazon.com/Vanishing-Hitchhiker-American-Urban-Legends/dp/0393951693) |  |
-| Urban Legends and Contemporary Belief | Core Verbal + Customary| Analyzes modern legend cycles, conspiracy narratives, and belief systems. | [*The Vanishing Hitchhiker* by Jan Harold Brunvand](https://www.amazon.com/Vanishing-Hitchhiker-American-Urban-Legends/dp/0393951693) |  |
-| Digital and Internet Folklore    | Urban Legends          | Studies memes, creepypasta, online communities, and vernacular creativity in digital spaces. | [*Folklore and the Internet* edited by Trevor J. Blank](https://www.amazon.com/Folklore-Internet-Vernacular-Expression-Digital/dp/0874218484) |  |
-| Folklore and Social Media        | Digital Folklore       | Transmission dynamics, remix culture, and participatory folklore on platforms like TikTok, YouTube, and forums. | [*Folklore and the Internet* edited by Trevor J. Blank](https://www.amazon.com/Folklore-Internet-Vernacular-Expression-Digital/dp/0874218484) |  |
+### 2. Genres of Folklore
+
+| Topic | Resource |
+| --- | --- |
+| Verbal, customary, material, belief, and expressive forms | **[Barre Toelken, *The Dynamics of Folklore* (Archive.org)](https://archive.org/details/dynamicsoffolklo0000toel)** |
+
+### 3. Folklore vs. Myth, Legend, Literature
+
+| Topic | Resource |
+| --- | --- |
+| Disciplinary boundaries and overlaps | **[Dorson, “Is Folklore a Discipline?” (open-access)](https://www.jstor.org/stable/1498757)** |
+
+## II. History and Theory of Folkloristics
+
+### 4. History of the Discipline
+
+| Topic | Resource |
+| --- | --- |
+| Antiquarianism, nationalism, performance turn | **[Dorson, *Folklore and Folklife*](https://archive.org/details/folklorefolklife0000unse)** |
+
+### 5. Major Theoretical Approaches
+
+| Topic | Resource |
+| --- | --- |
+| Functionalism, structuralism, performance, context | **[Toelken, *The Dynamics of Folklore* (Archive.org)](https://archive.org/details/dynamicsoffolklo0000toel)** + **[Dundes (selected essays, Archive.org)](https://archive.org/details/studyoffolklore00dund)** |
+
+### 6. Performance Theory
+
+| Topic | Resource |
+| --- | --- |
+| Framing, emergent meaning, audience | **[Richard Bauman, *Verbal Art as Performance* (Archive.org)](https://archive.org/details/verbalartasperfo0000baum)** |
+
+## III. Methods, Ethics, and Documentation
+
+### 7. Folklore Fieldwork Methods
+
+| Topic | Resource |
+| --- | --- |
+| Interviewing, observation, transcription | **[American Folklore Society – Fieldwork Guides (official site)](https://americanfolkloresociety.org/resources/professional-development-resources/)** |
+
+### 8. Ethics and Representation
+
+| Topic | Resource |
+| --- | --- |
+| Consent, power, indigenous knowledge | **[American Folklore Society Ethics Statement](https://americanfolkloresociety.org/our-work/position-statement-ethics/)** |
+
+### 9. Archives and Documentation
+
+| Topic | Resource |
+| --- | --- |
+| Oral history, metadata, preservation | **[Library of Congress – Folklife & Oral History Guides](https://www.loc.gov/collections/american-folklife-center/about-this-collection/)** |
+
+## IV. Core Folklore Genres
+
+### 10. Verbal Folklore
+
+| Topic | Resource |
+| --- | --- |
+| Folktales, legends, myths, personal narratives | **[Stith Thompson, *The Folktale* (Archive.org)](https://archive.org/details/folktale0000thom_d2j8)** |
+
+### 11. Narrative Structure and Motifs
+
+| Topic | Resource |
+| --- | --- |
+| Tale types, motifs, morphology | **[Vladimir Propp, *Morphology of the Folktale* (Archive.org)](https://archive.org/details/morphologyoffolk0000prop)** |
+
+### 12. Customary and Belief Folklore
+
+| Topic | Resource |
+| --- | --- |
+| Ritual, festival, superstition | **[Toelken, *The Dynamics of Folklore* (Archive.org)](https://archive.org/details/dynamicsoffolklo0000toel)** |
+
+### 13. Material Culture and Folklife
+
+| Topic | Resource |
+| --- | --- |
+| Crafts, foodways, vernacular architecture | **[Henry Glassie, *Material Culture*](https://iupress.org/9780253335746/material-culture/)** |
+
+## V. Regional, Ethnic, and Indigenous Traditions
+
+### 14. Comparative Folklore
+
+| Topic | Resource |
+| --- | --- |
+| Cross-cultural comparison | **[Dorson, *Folklore and Folklife* (Archive.org)](https://archive.org/details/folklorefolklife0000unse)** |
+
+### 15. American and Diasporic Folklore
+
+| Topic | Resource |
+| --- | --- |
+| Occupational, ethnic, immigrant traditions | **[Library of Congress – American Folklife Collections](https://www.loc.gov/collections/american-folklife-center/about-this-collection/)** |
+
+### 16. Indigenous Traditions
+
+| Topic | Resource |
+| --- | --- |
+| Oral traditions, ethics, sovereignty | **[Brian Swann (ed.), *Coming to Light* (Archive.org)](https://archive.org/details/comingtolightcon00bria)** |
+
+## VI. Applied and Public Folklore
+
+### 17. Public Folklore and Cultural Heritage
+
+| Topic | Resource |
+| --- | --- |
+| Museums, festivals, policy | **[Smithsonian Center for Folklife & Cultural Heritage (open materials)](https://folklife.si.edu/)** |
+
+### 18. Folklore in Museums and Archives
+
+| Topic | Resource |
+| --- | --- |
+| Curation, interpretation, access | **[Smithsonian + Library of Congress case studies](https://folklife.si.edu/)** |
+
+## VII. Contemporary and Digital Folklore
+
+### 19. Urban Legends and Contemporary Belief
+
+| Topic | Resource |
+| --- | --- |
+| Modern legend cycles, rumor | **[Jan Harold Brunvand, *The Vanishing Hitchhiker* (Archive.org)](https://archive.org/details/vanishinghitchhi00brun)** |
+
+### 20. Digital and Internet Folklore
+
+| Topic | Resource |
+| --- | --- |
+| Memes, creepypasta, online communities | **[Trevor J. Blank (ed.), *Folklore and the Internet*](https://digitalcommons.usu.edu/usupress_pubs/31/)** |
+
+### 21. Folklore, Popular Culture, and Media
+
+| Topic | Resource |
+| --- | --- |
+| Adaptation, commodification, remix | **[Brunvand + Smithsonian media folklore essays](https://folklife.si.edu/talkstory)** |
 
 ## Congratulations
 
