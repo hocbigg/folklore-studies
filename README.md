@@ -1,15 +1,7 @@
-<div align="center" style="text-align: center">
-<img src="/images/logo.png" alt=""/>
-<h3>Hocbigg - Folklore Studies</h3>
-<p>
-  Path to a free self-taught education in Folklore Studies!
-</p>
-<p>
-  <a href="https://github.com/hocbigg/folklore-studies">
-    <img alt="Hocbigg" src="/images/view_on_github.svg"
-  ></a>
-</p>
-</div>
+---
+title: Hocbigg - Folklore Studies
+description: Path to a free self-taught education in Folklore Studies!
+---
 
 # Contents
 
@@ -22,16 +14,27 @@
 
 The Folklore Studies curriculum is a **complete education in Folklore Studies** using online materials.
 
-Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
+## Organization
 
+This repository is organized into 2 main components:
+
+- **Core Curriculum** (this page): the foundational knowledge of the field;
+- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
+
+**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
+
+- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
+- The Core Curriculum provides a shared foundation and is intended to be completed in full.
+- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
+
+Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
+they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
 
 **[How to contribute](/CONTRIBUTING.html)**
 
 # Communities
 
-- ...
-- You can also interact through [GitHub issues](https://github.com/hocbigg/folklore-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
+- You can interact through [GitHub issues](https://github.com/hocbigg/folklore-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
 - Join our Discord server (for discussions around this and other curricula): 
     
     [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
@@ -51,22 +54,7 @@ The following sections form the essential foundation of the discipline. Study th
 
 These four sections (I–IV) give you the basic concepts, historical context, theoretical toolkit, research methods, and major categories of folklore. Finish them first, in sequence, before moving to anything else. 
 
-### Specialization Tracks
-
-After completing sections I–IV, you have several directional paths you can choose from, depending on your interests. These are **not** required for a general understanding, but they allow you to go deeper in specific areas:
-
-- V. Regional, Ethnic, and Indigenous Traditions  
-  (focus: folklore across cultures, places, and peoples)
-
-- VI. Applied and Public Folklore  
-  (focus: how folklore is used outside the university – museums, festivals, heritage work, public programs)
-
-- VII. Contemporary and Digital Folklore  
-  (focus: folklore in modern life, cities, media, internet, and popular culture)
-
-
-
-## I. Foundations of Folklore Studies
+## Foundations of Folklore Studies
 
 ### 1. What Is Folklore?
 
@@ -86,7 +74,7 @@ After completing sections I–IV, you have several directional paths you can cho
 | --- | --- |
 | Disciplinary boundaries and overlaps | **[Dorson, “Is Folklore a Discipline?” (open-access)](https://www.jstor.org/stable/1498757)** |
 
-## II. History and Theory of Folkloristics
+## History and Theory of Folkloristics
 
 ### 4. History of the Discipline
 
@@ -106,7 +94,7 @@ After completing sections I–IV, you have several directional paths you can cho
 | --- | --- |
 | Framing, emergent meaning, audience | **[Richard Bauman, *Verbal Art as Performance* (Archive.org)](https://archive.org/details/verbalartasperfo0000baum)** |
 
-## III. Methods, Ethics, and Documentation
+## Methods, Ethics, and Documentation
 
 ### 7. Folklore Fieldwork Methods
 
@@ -126,7 +114,7 @@ After completing sections I–IV, you have several directional paths you can cho
 | --- | --- |
 | Oral history, metadata, preservation | **[Library of Congress – Folklife & Oral History Guides](https://www.loc.gov/collections/american-folklife-center/about-this-collection/)** |
 
-## IV. Core Folklore Genres
+## Core Folklore Genres
 
 ### 10. Verbal Folklore
 
@@ -152,59 +140,6 @@ After completing sections I–IV, you have several directional paths you can cho
 | --- | --- |
 | Crafts, foodways, vernacular architecture | **[Henry Glassie, *Material Culture*](https://iupress.org/9780253335746/material-culture/)** |
 
-## V. Regional, Ethnic, and Indigenous Traditions
-
-### 14. Comparative Folklore
-
-| Topic | Resource |
-| --- | --- |
-| Cross-cultural comparison | **[Dorson, *Folklore and Folklife* (Archive.org)](https://archive.org/details/folklorefolklife0000unse)** |
-
-### 15. American and Diasporic Folklore
-
-| Topic | Resource |
-| --- | --- |
-| Occupational, ethnic, immigrant traditions | **[Library of Congress – American Folklife Collections](https://www.loc.gov/collections/american-folklife-center/about-this-collection/)** |
-
-### 16. Indigenous Traditions
-
-| Topic | Resource |
-| --- | --- |
-| Oral traditions, ethics, sovereignty | **[Brian Swann (ed.), *Coming to Light* (Archive.org)](https://archive.org/details/comingtolightcon00bria)** |
-
-## VI. Applied and Public Folklore
-
-### 17. Public Folklore and Cultural Heritage
-
-| Topic | Resource |
-| --- | --- |
-| Museums, festivals, policy | **[Smithsonian Center for Folklife & Cultural Heritage (open materials)](https://folklife.si.edu/)** |
-
-### 18. Folklore in Museums and Archives
-
-| Topic | Resource |
-| --- | --- |
-| Curation, interpretation, access | **[Smithsonian + Library of Congress case studies](https://folklife.si.edu/)** |
-
-## VII. Contemporary and Digital Folklore
-
-### 19. Urban Legends and Contemporary Belief
-
-| Topic | Resource |
-| --- | --- |
-| Modern legend cycles, rumor | **[Jan Harold Brunvand, *The Vanishing Hitchhiker* (Archive.org)](https://archive.org/details/vanishinghitchhi00brun)** |
-
-### 20. Digital and Internet Folklore
-
-| Topic | Resource |
-| --- | --- |
-| Memes, creepypasta, online communities | **[Trevor J. Blank (ed.), *Folklore and the Internet*](https://digitalcommons.usu.edu/usupress_pubs/31/)** |
-
-### 21. Folklore, Popular Culture, and Media
-
-| Topic | Resource |
-| --- | --- |
-| Adaptation, commodification, remix | **[Brunvand + Smithsonian media folklore essays](https://folklife.si.edu/talkstory)** |
 
 ## Congratulations
 
