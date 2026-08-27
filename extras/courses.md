@@ -1,36 +1,35 @@
-# Great Courses
+# Great Courses in Folklore Studies
 
-This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.
+This curated collection features full-length university OpenCourseWare, high-quality massive open online courses (MOOCs), institutional lecture series, and specialized archival seminars. These audiovisual resources offer deep dives into oral narrative traditions, ritual anthropology, indigenous worldviews, and public sector folkloristics.
 
+---
 
-## Mythology and Related Traditions
+## Oral Epic, Myth, and Classical Narrative
 
-| Courses | Duration | Effort |
-|:-- | :--: | :--: |
-| [Indigenous Canada](https://www.coursera.org/learn/indigenous-canada) | 12 weeks | 3-5 hours/week |
-| [Wonder and the Mythic Imagination in Paganism](https://www.futurelearn.com/courses/wonder-and-the-mythic-imagination) | 4 weeks | 3 hours/week |
-| [Myth, Ritual, and Symbolism (MIT OpenCourseWare)](https://ocw.mit.edu/courses/21a-212-myth-ritual-and-symbolism-spring-2004/) | Self-paced | Variable |
-| [The Ancient Greek Hero (Harvard/edX)](https://www.edx.org/course/the-ancient-greek-hero) | 16 weeks | 5-10 hours/week |
+- [The Ancient Greek Hero in 24 Hours (Harvard University / edX / Gregory Nagy)](https://www.edx.org/learn/humanities/harvard-university-the-ancient-greek-hero)
+- [World Mythology and Folklore Online (University of Oklahoma / Laura Gibbs)](https://mythfolklore.net/)
+- [Approaching Literature: Fairy Tales and Folk Narratives (The Open University / OpenLearn)](https://www.open.edu/openlearn/history-the-arts/)
+- [Folklore, Fairy Tales, and the Fantastic (The Carterhaugh School of Folklore and the Fantastic)](https://carterhaughschool.com/)
 
-## Folklore and Cultural Studies
+---
 
-| Courses | Duration | Effort |
-|:-- | :--: | :--: |
-| [Cultural Studies and Modern Languages](https://www.futurelearn.com/courses/cultural-studies) | 8 weeks | 3 hours/week |
-| [Icarus: Entering the World of Myth (Open University)](https://www.open.edu/openlearn/history-the-arts/icarus-entering-the-world-myth/content-section-0) | Self-paced | Variable |
+## Ritual, Symbolism, and Anthropology of Belief
 
-## Online Learning - Great Courses
+- [Myth, Ritual, and Symbolism (MIT OpenCourseWare / James Howe)](https://ocw.mit.edu/courses/21a-212-myth-ritual-and-symbolism-spring-2004/)
+- [Magic in the Middle Ages (University of Barcelona / Coursera / Pau Castell and Delfi Nieto-Isabel)](https://www.coursera.org/learn/magic-middle-ages)
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week
-[Mindshift](https://www.coursera.org/learn/mindshift) | 4 weeks | 2 hours/week
-[Powersearching with Google](https://www.edx.org/learn/google-power-searching/google-power-searching-with-google) | 3 weeks | 4-6 hours/week
+---
 
-## Other
+## Indigenous Traditions and Oral Epistemologies
 
-- [AFS Folklore Teaching Resource Collection (American Folklore Society syllabi and materials)](https://americanfolkloresociety.org/resources/afs-folklore-teaching-resource-collection/)
-- [Mythology-Folklore Fully Online Course (University of Oklahoma self-study guide)](https://mythfolklore.net/)
-- [Carterhaugh School of Folklore and the Fantastic (independent online courses and resources)](https://carterhaughschool.com/)
+- [Indigenous Canada (University of Alberta / Coursera / Tracy Bear and Paul Gareau)](https://www.coursera.org/learn/indigenous-canada)
+- [Aboriginal Worldviews and Education (University of Toronto / Coursera / Jean-Paul Restoule)](https://www.coursera.org/learn/aboriginal-education)
+
+---
+
+## Public Folklore, Archival Collections, and Masterclasses
+
+- [Benjamin Botkin Folklife Lecture Series (Library of Congress / American Folklife Center)](https://www.loc.gov/collections/american-folklife-center/about-this-collection/)
+- [Smithsonian Folklife Lectures, Masterclasses, and Fieldwork Webcasts (Smithsonian Center for Folklife and Cultural Heritage)](https://folklife.si.edu/)
+- [Open Folklore Digital Repository and Scholarly Communications Portal (American Folklore Society / Indiana University Bloomington Libraries)](https://openfolklore.org/)
+- [National Folklore Collection and Dúchas Educational Repository (University College Dublin)](https://www.duchas.ie/en)

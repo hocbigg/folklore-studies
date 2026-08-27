@@ -43,113 +43,111 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 
 ## How to use this curriculum
 
-### Core Path
+The following sections form the essential foundation of the discipline. Study them in sequence to develop a coherent understanding of what folklore is, how folklorists analyze cultural expression, and how to conduct ethical ethnographic research:
 
-The following sections form the essential foundation of the discipline. Study them **in this exact order** to develop a coherent general understanding of what folklore is, how folklorists think, and how the field works:
+1. Foundations of Folklore Studies
+2. History and Theory of Folkloristics
+3. Fieldwork, Ethics, and Archiving
+4. Core Folklore Genres
 
-1. I. Foundations of Folklore Studies  
-2. II. History and Theory of Folkloristics  
-3. III. Methods, Ethics, and Documentation  
-4. IV. Core Folklore Genres  
-
-These four sections (I–IV) give you the basic concepts, historical context, theoretical toolkit, research methods, and major categories of folklore. Finish them first, in sequence, before moving to anything else. 
+These four foundational sections provide the core concepts, historical perspectives, theoretical models, fieldwork methodologies, and primary genres of folklore before any advanced subfields or regional specializations are undertaken.
 
 ## Foundations of Folklore Studies
 
-### 1. What Is Folklore?
+### Defining Folklore and Folk Groups
 
 | Topic | Resource |
 | --- | --- |
-| Definitions, scope, folk groups, tradition, variation | **[Richard M. Dorson (ed.), *Folklore and Folklife: An Introduction* (Archive.org)](https://archive.org/details/folklorefolklife0000unse)** + **[Alan Dundes, “Who Are the Folk?” (Archive.org)](https://archive.org/details/studyoffolklore00dund)** |
+| Definitions of folklore, folk groups, unofficial culture, and informal transmission | **[Martha Sims and Martine Stephens, *Living Folklore: An Introduction to the Study of People and Their Traditions* (Archive.org)](https://archive.org/details/livingfolklorein0000sims)** + **[Alan Dundes, “Who Are the Folk?” (Archive.org)](https://archive.org/details/studyoffolklore00dund)** |
 
-### 2. Genres of Folklore
-
-| Topic | Resource |
-| --- | --- |
-| Verbal, customary, material, belief, and expressive forms | **[Barre Toelken, *The Dynamics of Folklore* (Archive.org)](https://archive.org/details/dynamicsoffolklo0000toel)** |
-
-### 3. Folklore vs. Myth, Legend, Literature
+### Text, Texture, and Context
 
 | Topic | Resource |
 | --- | --- |
-| Disciplinary boundaries and overlaps | **[Dorson, “Is Folklore a Discipline?” (open-access)](https://www.jstor.org/stable/1498757)** |
+| Dundes’s tripartite model: linguistic features (texture), narrative/form (text), and specific performance setting (context) | **[Alan Dundes, “Texture, Text, and Context” in *The Study of Folklore* (Archive.org)](https://archive.org/details/studyoffolklore00dund)** |
+
+### Tradition, Variation, and Transmission
+
+| Topic | Resource |
+| --- | --- |
+| Twin laws of folklore: conservative (tradition) and dynamic (variation) forces in culture | **[Barre Toelken, *The Dynamics of Folklore* (Archive.org)](https://archive.org/details/dynamicsoffolklo0000toel)** |
 
 ## History and Theory of Folkloristics
 
-### 4. History of the Discipline
+### Intellectual History and Nineteenth-Century Origins
 
 | Topic | Resource |
 | --- | --- |
-| Antiquarianism, nationalism, performance turn | **[Dorson, *Folklore and Folklife*](https://archive.org/details/folklorefolklife0000unse)** |
+| Antiquarianism, romantic nationalism (Herder, the Brothers Grimm), unilinear evolutionism, and the invention of "popular antiquities" | **[Richard M. Dorson (ed.), *Folklore and Folklife: An Introduction* (Archive.org)](https://archive.org/details/folklorefolklife0000unse)** |
 
-### 5. Major Theoretical Approaches
-
-| Topic | Resource |
-| --- | --- |
-| Functionalism, structuralism, performance, context | **[Toelken, *The Dynamics of Folklore* (Archive.org)](https://archive.org/details/dynamicsoffolklo0000toel)** + **[Dundes (selected essays, Archive.org)](https://archive.org/details/studyoffolklore00dund)** |
-
-### 6. Performance Theory
+### Comparative, Structural, and Functional Approaches
 
 | Topic | Resource |
 | --- | --- |
-| Framing, emergent meaning, audience | **[Richard Bauman, *Verbal Art as Performance* (Archive.org)](https://archive.org/details/verbalartasperfo0000baum)** |
+| Historic-geographic method, functionalism (Bascom), psychoanalytic interpretation (Dundes), and structuralism | Robert A. Georges and Michael Owen Jones, *Folkloristics: An Introduction* (Indiana University Press) + **[Alan Dundes (ed.), *The Study of Folklore* (Archive.org)](https://archive.org/details/studyoffolklore00dund)** |
 
-## Methods, Ethics, and Documentation
-
-### 7. Folklore Fieldwork Methods
+### Performance Theory and Contextualism
 
 | Topic | Resource |
 | --- | --- |
-| Interviewing, observation, transcription | **[American Folklore Society – Fieldwork Guides (official site)](https://americanfolkloresociety.org/resources/professional-development-resources/)** |
+| The performance turn, framing, keys, emergent meaning, communicator competence, and communicative events | **[Richard Bauman, *Verbal Art as Performance* (Archive.org)](https://archive.org/details/verbalartasperfo0000baum)** |
 
-### 8. Ethics and Representation
+## Fieldwork, Ethics, and Archiving
 
-| Topic | Resource |
-| --- | --- |
-| Consent, power, indigenous knowledge | **[American Folklore Society Ethics Statement](https://americanfolkloresociety.org/our-work/position-statement-ethics/)** |
-
-### 9. Archives and Documentation
+### Ethnographic Fieldwork and Documentation
 
 | Topic | Resource |
 | --- | --- |
-| Oral history, metadata, preservation | **[Library of Congress – Folklife & Oral History Guides](https://www.loc.gov/collections/american-folklife-center/about-this-collection/)** |
+| Field methodology, participant observation, ethnographic interviewing, audio/visual documentation, and logging fieldnotes | **[Stephen Winick and Peter Bartis, *Folklife and Fieldwork: An Introduction to Cultural Documentation*, 4th Edition (Library of Congress)](https://www.loc.gov/folklife/fieldwork/)** |
+
+### Ethics, Reciprocity, and Representation
+
+| Topic | Resource |
+| --- | --- |
+| Informed consent, power dynamics, informant vs. collaborator, cultural ownership, and indigenous intellectual property | **[American Folklore Society Statement of Ethics (official site)](https://americanfolkloresociety.org/our-work/position-statement-ethics/)** |
+
+### Archival Systems and Oral History Preservation
+
+| Topic | Resource |
+| --- | --- |
+| Archival classification, accessioning, metadata standards, sound recordings, and community curation | **[Library of Congress – American Folklife Center Collections and Fieldwork Materials](https://www.loc.gov/collections/american-folklife-center/about-this-collection/)** |
 
 ## Core Folklore Genres
 
-### 10. Verbal Folklore
+### Verbal Lore and Folk Narrative
 
 | Topic | Resource |
 | --- | --- |
-| Folktales, legends, myths, personal narratives | **[Stith Thompson, *The Folktale* (Archive.org)](https://archive.org/details/folktale0000thom_d2j8)** |
+| Myths (sacred narratives), legends (belief tales, urban/contemporary legends), folktales (fictional tales), proverbs, riddles, and personal experience narratives | **[Stith Thompson, *The Folktale* (Archive.org)](https://archive.org/details/folktale0000thom_d2j8)** |
 
-### 11. Narrative Structure and Motifs
-
-| Topic | Resource |
-| --- | --- |
-| Tale types, motifs, morphology | **[Vladimir Propp, *Morphology of the Folktale* (Archive.org)](https://archive.org/details/morphologyoffolk0000prop)** |
-
-### 12. Customary and Belief Folklore
+### Narrative Classification, Motifs, and Morphology
 
 | Topic | Resource |
 | --- | --- |
-| Ritual, festival, superstition | **[Toelken, *The Dynamics of Folklore* (Archive.org)](https://archive.org/details/dynamicsoffolklo0000toel)** |
+| Aarne-Thompson-Uther (ATU) Tale Type Index, Thompson's Motif Index, and morphological syntagmatic analysis | **[Vladimir Propp, *Morphology of the Folktale* (Archive.org)](https://archive.org/details/morphologyoffolk0000prop)** |
 
-### 13. Material Culture and Folklife
+### Customary Lore, Ritual, and Vernacular Belief
 
 | Topic | Resource |
 | --- | --- |
-| Crafts, foodways, vernacular architecture | **[Henry Glassie, *Material Culture*](https://iupress.org/9780253335746/material-culture/)** |
+| Rites of passage, calendar customs, festivals, vernacular religion, folk medicine, superstition, and ritualized play | **[Barre Toelken, *The Dynamics of Folklore* (Archive.org)](https://archive.org/details/dynamicsoffolklo0000toel)** |
 
+### Material Culture and Vernacular Architecture
+
+| Topic | Resource |
+| --- | --- |
+| Vernacular architecture, folk craft, traditional art, foodways, and the relationship between physical artifacts and maker identity | **[Henry Glassie, *Material Culture* (Indiana University Press)](https://iupress.org/9780253335746/material-culture/)** |
+
+### Contemporary and Digital Folklore
+
+| Topic | Resource |
+| --- | --- |
+| Internet memes, creepypasta, digital performance, online folk groups, participatory culture, and contemporary vernacular expression | Lynne S. McNeill, *Folklore Rules: A Fun, Quick, and Useful Introduction to the Field of Academic Folklore Studies* (Utah State University Press) + Trevor J. Blank (ed.), *Folklore and the Internet: Vernacular Expression in a Digital World* (Utah State University Press) |
 
 ## Congratulations
 
-After completing the requirements of the curriculum above,
-you will have completed the equivalent of a full bachelor's degree in Folklore Studies.
-Congratulations!
+After completing the requirements of the curriculum above, you will have established a comprehensive foundation in the core concepts, theories, research methodologies, and genres of Folklore Studies.
 
 # Code of conduct
 
 [Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
-
-
-
