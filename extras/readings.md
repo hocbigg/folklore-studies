@@ -2,8 +2,6 @@
 
 This curated reading list contains the discipline-defining monographs, landmark theoretical papers, and seminal ethnographic studies that have shaped modern folkloristics. These works illustrate how folklorists analyze informal expressive culture, vernacular belief systems, artistic performance, and community traditions.
 
----
-
 ## Foundations, Functions, and Disciplinary Paradigms
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -13,8 +11,6 @@ This curated reading list contains the discipline-defining monographs, landmark 
 | **[“Four Functions of Folklore”](https://www.jstor.org/stable/536411)** | William R. Bascom | Landmark Paper | Defined the classical functionalist paradigm in folklore, demonstrating how traditional expressive culture maintains social cohesion, educates, validates institutions, and enables psychological release. |
 | **[*In Search of Authenticity: The Formation of Folklore Studies*](https://archive.org/details/insearchofauthen0000bend)** | Regina Bendix | Monograph | Provides a critical intellectual history of folklore studies in Europe and America, dissecting how the romantic quest for "authenticity" shaped disciplinary ideology. |
 | **[*The Study of Folklore*](https://archive.org/details/studyoffolklore00dund)** | Alan Dundes (ed.) | Milestone Reader | Collects foundational disciplinary essays that shifted folkloristics from antiquarian collecting to psychoanalytic, structural, and cultural analysis. |
-
----
 
 ## Performance, Context, and Sociolinguistic Ethnography
 
@@ -26,8 +22,6 @@ This curated reading list contains the discipline-defining monographs, landmark 
 | *Wisdom Sits in Places: Landscape and Language Among the Western Apache* | Keith H. Basso | Monograph | Explores how geographical place-names and oral narratives interlock to encode moral philosophy, cultural memory, and landscape semiotics. |
 | *Voices of Modernity: Language Ideologies and the Politics of Inequality* | Richard Bauman and Charles L. Briggs | Monograph | Examines how the historical extraction and remediation of folk texts by early scholars helped construct modern linguistic hierarchies and social inequalities. |
 
----
-
 ## Narrative Theory, Fairy Tales, and Contemporary Legendry
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -37,8 +31,6 @@ This curated reading list contains the discipline-defining monographs, landmark 
 | **[*The Vanishing Hitchhiker: American Urban Legends and Their Meanings*](https://archive.org/details/vanishinghitchhi00brun)** | Jan Harold Brunvand | Book | The seminal study that brought modern urban legend scholarship to international prominence, analyzing how modern folklore expresses contemporary psychological anxieties. |
 | *Aliens, Ghosts, and Cults: Legends We Live* | Bill Ellis | Monograph | Explores ostension (the enactment of legends in real life), showing how contemporary legend dynamics drive ghost-hunting, satanic panics, and ritual exploration. |
 
----
-
 ## Vernacular Religion, Belief, and Experiential Traditions
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -46,8 +38,6 @@ This curated reading list contains the discipline-defining monographs, landmark 
 | **[*The Terror That Comes in the Night: An Experience-Centered Study of Supernatural Assault Traditions*](https://archive.org/details/terrorthatcomesi0000huff)** | David J. Hufford | Landmark Monograph | Formulated the experience-centered theory of belief, proving that certain supernatural traditions (such as the "Old Hag") arise from universal human physiological experiences (sleep paralysis) rather than mere cultural transmission. |
 | “Vernacular Religion and the Search for Method in Religious Folklife” | Leonard Norman Primiano | Landmark Paper | Introduced the concept of "vernacular religion," establishing that all religion is lived, individualized, and emergent, regardless of institutional orthodoxy. |
 | **[*Haunting Experiences: Ghosts in Contemporary Folklore*](https://digitalcommons.usu.edu/usupress_pubs/19/)** | Diane E. Goldstein, Sylvia Ann Grider, and Jeannie Banks Thomas | Book | Examines ghost narratives across belief systems, popular entertainment, and material spaces, illustrating how spectral lore addresses trauma, ethics, and gender. |
-
----
 
 ## Folklife, Material Culture, and Digital Vernaculars
 
