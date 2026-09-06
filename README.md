@@ -142,7 +142,7 @@ These four foundational sections provide the core concepts, historical perspecti
 
 | Topic | Resource |
 | --- | --- |
-| Internet memes, creepypasta, digital performance, online folk groups, participatory culture, and contemporary vernacular expression | Lynne S. McNeill, *Folklore Rules: A Fun, Quick, and Useful Introduction to the Field of Academic Folklore Studies* (Utah State University Press) + Trevor J. Blank (ed.), *Folklore and the Internet: Vernacular Expression in a Digital World* (Utah State University Press) |
+| Internet memes, creepypasta, digital performance, online folk groups, participatory culture, and contemporary vernacular expression | Lynne S. McNeill, *[Folklore Rules: A Fun, Quick, and Useful Introduction to the Field of Academic Folklore Studies](https://books.google.com/books?isbn=9780874219050)* (Utah State University Press) + Trevor J. Blank (ed.), *[Folklore and the Internet: Vernacular Expression in a Digital World](https://books.google.com/books?isbn=9780874217506)* (Utah State University Press) |
 
 ## Congratulations
 
