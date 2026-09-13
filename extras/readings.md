@@ -38,7 +38,6 @@ This curated reading list features the discipline-defining monographs, landmark 
 | Title | Author(s) |
 | :--- | :--- |
 | [*The Terror That Comes in the Night: An Experience-Centered Study of Supernatural Assault Traditions*](https://archive.org/details/terrorthatcomesi0000huff) | David J. Hufford |
-| “Vernacular Religion and the Search for Method in Religious Folklife” (unlinked) | Leonard Norman Primiano |
 | [*Haunting Experiences: Ghosts in Contemporary Folklore*](https://digitalcommons.usu.edu/usupress_pubs/18/) | Diane E. Goldstein, Sylvia Ann Grider, and Jeannie Banks Thomas |
 | [*The Marrow of Human Experience: Essays on Folklore*](https://digitalcommons.usu.edu/usupress_pubs/54/) | William A. Wilson |
 
