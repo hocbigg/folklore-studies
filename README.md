@@ -5,11 +5,21 @@ description: Path to a free self-taught education in Folklore Studies!
 
 ## Introduction
 
-The Folklore Studies curriculum is a **complete education in Folklore Studies** using online materials.
+Folklore Studies (or folkloristics) is the academic study of unofficial, expressive culture. Rather than analyzing institutional fine arts or corporate mass media, folkloristics examines the creative traditions people share informally in everyday life—including oral tales, proverbs, rituals, festivals, vernacular architecture, craft, and internet memes. Studying folklore reveals how groups navigate cultural identity, negotiate shared values, and articulate collective anxieties through traditional forms.
 
-**[How to contribute](/CONTRIBUTING.html)**
+This curriculum is designed for self-directed, independent learners and assumes no prior background in cultural anthropology, linguistics, or literary studies. It focuses strictly on the foundational concepts, historical theories, expressive genres, and field methods that constitute a core undergraduate education in the discipline.
 
-## Communities
+### How to Navigate This Curriculum
+
+The curriculum balances conceptual foundations with genre-specific analysis and ethnographic practice:
+
+* **Start with the foundations:** Begin with *Introduction to Folklore Studies* and *History and Theory of Folkloristics*. These two subjects provide the essential theoretical vocabulary—such as folk groups, informal transmission, the twin laws of conservative tradition and dynamic variation, and performance theory—that underpins the rest of the field.
+* **Explore the core genres:** Once the foundational frameworks are established, the four genre-focused subjects—*Folk Narrative and Verbal Art*; *Customary Lore, Ritual, and Vernacular Belief*; *Material Culture and Folklife*; and *Digital and Contemporary Folklore*—can be explored in any sequence based on your personal focus.
+* **Consolidate with fieldwork:** Conclude with *Ethnographic Fieldwork and Cultural Documentation*. This subject translates theory into practice, teaching you how folklorists conduct ethical participant observation, record oral histories, and collaborate with living communities.
+
+This guide provides the core baseline every student in the discipline needs. After mastering these foundational subjects, you can explore specialized subdisciplines in [Advanced Topics](advanced_topics.md), engage with seminal monographs and theoretical papers in [Readings](extras/readings.md), or watch extended lecture series in [Courses](extras/courses.md).
+
+### Communities
 
 - You can interact through [GitHub issues](https://github.com/hocbigg/folklore-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
 
