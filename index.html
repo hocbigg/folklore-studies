@@ -1,293 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Hocbigg - Folklore Studies</title>
-<link rel="stylesheet" href="/folklore-studies/style.css">
-<meta name="description" content="Path to a free self-taught education in Folklore Studies!">
+  <title>Hocbigg - Folklore Studies</title>
+  <meta name="description" content="Path to a free self-taught education in Folklore Studies!">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/folklore-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/folklore-studies/">
+  <meta property="og:title" content="Hocbigg - Folklore Studies">
+  <meta property="og:description" content="Path to a free self-taught education in Folklore Studies!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/folklore-studies/">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Hocbigg - Folklore Studies">
-<meta property="og:description" content="Path to a free self-taught education in Folklore Studies!">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/folklore-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/folklore-studies/">Folklore-Studies</a>
-<a href="/folklore-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/folklore-studies/extras/courses.html">Extra Courses</a>
-<a href="/folklore-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/folklore-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/folklore-studies/">Folklore Studies</a></li>
+      <li><a href="/folklore-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/folklore-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/folklore-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/folklore-studies" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
+  <main id="main-content">
+    <article>
 <header class="page-header">
-  <img src="/images/logo.png" alt="">
+  <img src="/images/logo.png" alt="Hocbigg logo">
   <h1>Hocbigg - Folklore Studies</h1>
+  <p class="page-subtitle">Path to a free self-taught education in Folklore Studies!</p>
+  <p class="last-updated"><small>Last updated on: <time datetime="2026-09-27">2026-09-27</time></small></p>
 </header>
-
-<h1 id="contents">Contents</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Folklore Studies (or folkloristics) is the academic study of unofficial, expressive culture. Rather than analyzing institutional fine arts or corporate mass media, folkloristics examines the creative traditions people share informally in everyday life—including oral tales, proverbs, rituals, festivals, vernacular architecture, craft, and internet memes. Studying folklore reveals how groups navigate cultural identity, negotiate shared values, and articulate collective anxieties through traditional forms.</p>
+<p>This curriculum is designed for self-directed, independent learners and assumes no prior background in cultural anthropology, linguistics, or literary studies. It focuses strictly on the foundational concepts, historical theories, expressive genres, and field methods that constitute a core undergraduate education in the discipline.</p>
+<h3 id="how-to-navigate-this-curriculum">How to Navigate This Curriculum</h3>
+<p>The curriculum balances conceptual foundations with genre-specific analysis and ethnographic practice:</p>
 <ul>
-<li><a href="#summary">Summary</a></li>
-<li><a href="#communities">Communities</a></li>
-<li><a href="#curriculum">Curriculum</a></li>
-<li><a href="#code-of-conduct">Code of conduct</a></li>
+<li><strong>Start with the foundations:</strong> Begin with <em>Introduction to Folklore Studies</em> and <em>History and Theory of Folkloristics</em>. These two subjects provide the essential theoretical vocabulary—such as folk groups, informal transmission, the twin laws of conservative tradition and dynamic variation, and performance theory—that underpins the rest of the field.</li>
+<li><strong>Explore the core genres:</strong> Once the foundational frameworks are established, the four genre-focused subjects—<em>Folk Narrative and Verbal Art</em>; <em>Customary Lore, Ritual, and Vernacular Belief</em>; <em>Material Culture and Folklife</em>; and <em>Digital and Contemporary Folklore</em>—can be explored in any sequence based on your personal focus.</li>
+<li><strong>Consolidate with fieldwork:</strong> Conclude with <em>Ethnographic Fieldwork and Cultural Documentation</em>. This subject translates theory into practice, teaching you how folklorists conduct ethical participant observation, record oral histories, and collaborate with living communities.</li>
 </ul>
-<h1 id="summary">Summary</h1>
-<p>The Folklore Studies curriculum is a <strong>complete education in Folklore Studies</strong> using online materials.</p>
-<h2 id="organization">Organization</h2>
-<p>This repository is organized into 2 main components:</p>
+<p>This guide provides the core baseline every student in the discipline needs. After mastering these foundational subjects, you can explore specialized subdisciplines in <a href="advanced_topics.html">Advanced Topics</a>, engage with seminal monographs and theoretical papers in <a href="extras/readings.html">Readings</a>, or watch extended lecture series in <a href="extras/courses.html">Courses</a>.</p>
+<h3 id="communities">Communities</h3>
 <ul>
-<li><strong>Core Curriculum</strong> (this page): the foundational knowledge of the field;</li>
-<li><strong><a href="advanced_topics.html">Advanced Topics</a></strong>: focused study in specific areas;</li>
+<li>You can interact through <a href="https://github.com/hocbigg/folklore-studies/issues" target="_blank" rel="noopener noreferrer">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
 </ul>
-<p><strong>Process:</strong> Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.</p>
-<ul>
-<li>For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.</li>
-<li>The Core Curriculum provides a shared foundation and is intended to be completed in full.</li>
-<li>Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.</li>
-</ul>
-<p>Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in <a href="extras/courses.html">extras/courses</a>, <a href="extras/readings.html">extras/readings</a>.</p>
-<p><strong><a href="/CONTRIBUTING.html">How to contribute</a></strong></p>
-<h1 id="communities">Communities</h1>
-<ul>
-<li>You can interact through <a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/folklore-studies/issues">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
-<li>
-<p>Join our Discord server (for discussions around this and other curricula): </p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/KHqAv4Nvm5"><img alt="discord link" src="/assets/discord.png" /></a></p>
-</li>
-</ul>
-<h1 id="curriculum">Curriculum</h1>
-<h2 id="how-to-use-this-curriculum">How to use this curriculum</h2>
-<h3 id="core-path">Core Path</h3>
-<p>The following sections form the essential foundation of the discipline. Study them <strong>in this exact order</strong> to develop a coherent general understanding of what folklore is, how folklorists think, and how the field works:</p>
-<ol>
-<li>I. Foundations of Folklore Studies  </li>
-<li>II. History and Theory of Folkloristics  </li>
-<li>III. Methods, Ethics, and Documentation  </li>
-<li>IV. Core Folklore Genres  </li>
-</ol>
-<p>These four sections (I–IV) give you the basic concepts, historical context, theoretical toolkit, research methods, and major categories of folklore. Finish them first, in sequence, before moving to anything else. </p>
-<h2 id="foundations-of-folklore-studies">Foundations of Folklore Studies</h2>
-<h3 id="1-what-is-folklore">1. What Is Folklore?</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Definitions, scope, folk groups, tradition, variation</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/folklorefolklife0000unse">Richard M. Dorson (ed.), <em>Folklore and Folklife: An Introduction</em> (Archive.org)</a></strong> + <strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/studyoffolklore00dund">Alan Dundes, “Who Are the Folk?” (Archive.org)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="2-genres-of-folklore">2. Genres of Folklore</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Verbal, customary, material, belief, and expressive forms</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/dynamicsoffolklo0000toel">Barre Toelken, <em>The Dynamics of Folklore</em> (Archive.org)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="3-folklore-vs-myth-legend-literature">3. Folklore vs. Myth, Legend, Literature</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Disciplinary boundaries and overlaps</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.jstor.org/stable/1498757">Dorson, “Is Folklore a Discipline?” (open-access)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="history-and-theory-of-folkloristics">History and Theory of Folkloristics</h2>
-<h3 id="4-history-of-the-discipline">4. History of the Discipline</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Antiquarianism, nationalism, performance turn</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/folklorefolklife0000unse">Dorson, <em>Folklore and Folklife</em></a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="5-major-theoretical-approaches">5. Major Theoretical Approaches</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Functionalism, structuralism, performance, context</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/dynamicsoffolklo0000toel">Toelken, <em>The Dynamics of Folklore</em> (Archive.org)</a></strong> + <strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/studyoffolklore00dund">Dundes (selected essays, Archive.org)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="6-performance-theory">6. Performance Theory</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Framing, emergent meaning, audience</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/verbalartasperfo0000baum">Richard Bauman, <em>Verbal Art as Performance</em> (Archive.org)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="methods-ethics-and-documentation">Methods, Ethics, and Documentation</h2>
-<h3 id="7-folklore-fieldwork-methods">7. Folklore Fieldwork Methods</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Interviewing, observation, transcription</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://americanfolkloresociety.org/resources/professional-development-resources/">American Folklore Society – Fieldwork Guides (official site)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="8-ethics-and-representation">8. Ethics and Representation</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Consent, power, indigenous knowledge</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://americanfolkloresociety.org/our-work/position-statement-ethics/">American Folklore Society Ethics Statement</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="9-archives-and-documentation">9. Archives and Documentation</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Oral history, metadata, preservation</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.loc.gov/collections/american-folklife-center/about-this-collection/">Library of Congress – Folklife &amp; Oral History Guides</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="core-folklore-genres">Core Folklore Genres</h2>
-<h3 id="10-verbal-folklore">10. Verbal Folklore</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Folktales, legends, myths, personal narratives</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/folktale0000thom_d2j8">Stith Thompson, <em>The Folktale</em> (Archive.org)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="11-narrative-structure-and-motifs">11. Narrative Structure and Motifs</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Tale types, motifs, morphology</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/morphologyoffolk0000prop">Vladimir Propp, <em>Morphology of the Folktale</em> (Archive.org)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="12-customary-and-belief-folklore">12. Customary and Belief Folklore</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Ritual, festival, superstition</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/dynamicsoffolklo0000toel">Toelken, <em>The Dynamics of Folklore</em> (Archive.org)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="13-material-culture-and-folklife">13. Material Culture and Folklife</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Crafts, foodways, vernacular architecture</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://iupress.org/9780253335746/material-culture/">Henry Glassie, <em>Material Culture</em></a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="congratulations">Congratulations</h2>
-<p>After completing the requirements of the curriculum above,
-you will have completed the equivalent of a full bachelor's degree in Folklore Studies.
-Congratulations!</p>
-<h1 id="code-of-conduct">Code of conduct</h1>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/code-of-conduct">Hocbigg's code of conduct</a>.</p>
-</article>
-</main>
+<h2 id="curriculum">Curriculum</h2>
+<h3 id="introduction-to-folklore-studies">Introduction to Folklore Studies</h3>
+<p>This subject introduces the defining principles of folklore, examining how folk groups form, how unofficial culture is informally transmitted, and how tradition balances dynamic variation.</p>
+<p><a href="https://www.youtube.com/watch?v=PBDJ2UJpKt4" target="_blank" rel="noopener noreferrer">Folklore doesn't meme what you think it memes (TEDxUSU / Lynne S. McNeill)</a> - Start with this 10-minute video lecture for an engaging, accessible overview of how folklorists define folk groups and unofficial culture in modern everyday life.</p>
+<p><a href="https://books.google.com/books?isbn=9780874219050" target="_blank" rel="noopener noreferrer">Folklore Rules: A Fun, Quick, and Useful Introduction to the Field of Academic Folklore Studies (Lynne S. McNeill)</a> - The fastest, most approachable entry point for independent learners, providing a concise 100-page orientation to foundational concepts, genres, and analytical terms.</p>
+<p><a href="https://archive.org/details/livingfolklorein0000sims" target="_blank" rel="noopener noreferrer">Living Folklore: An Introduction to the Study of People and Their Traditions (Martha Sims and Martine Stephens / Internet Archive)</a> - A comprehensive alternative to Folklore Rules, better suited for learners who prefer a traditional, full-semester textbook with detailed explanations and pedagogical exercises.</p>
+<p><a href="https://archive.org/details/dynamicsoffolklo0000toel" target="_blank" rel="noopener noreferrer">The Dynamics of Folklore (Barre Toelken / Internet Archive)</a> - A complementary theoretical work to study after reading either introductory textbook, introducing the twin laws of folklore—conservative stability and dynamic variation.</p>
+<h3 id="history-and-theory-of-folkloristics">History and Theory of Folkloristics</h3>
+<p>This subject charts the intellectual development of folklore studies from nineteenth-century romantic nationalism through comparative, psychoanalytic, structuralist, and performance-centered frameworks.</p>
+<p><a href="https://books.google.com/books?isbn=9780253209948" target="_blank" rel="noopener noreferrer">Folkloristics: An Introduction (Robert A. Georges and Michael Owen Jones)</a> - The primary historical survey textbook for this subject, tracing the intellectual evolution of the discipline from nineteenth-century origins to contemporary paradigms.</p>
+<p><a href="https://archive.org/details/studyoffolklore00dund" target="_blank" rel="noopener noreferrer">The Study of Folklore (Alan Dundes / Internet Archive)</a> - A complementary primary-source anthology to read alongside Georges and Jones, compiling landmark historical essays on functionalist, psychoanalytic, and structuralist approaches.</p>
+<p><a href="https://archive.org/details/verbalartasperfo0000baum" target="_blank" rel="noopener noreferrer">Verbal Art as Performance (Richard Bauman / Internet Archive)</a> - A sequential monograph to study after the survey texts, exploring the discipline's major modern theoretical breakthrough: performance theory and communicative competence.</p>
+<p><a href="https://www.youtube.com/watch?v=2B83bb7wFdA" target="_blank" rel="noopener noreferrer">International Folkloristics in the Twenty-First Century (American Folklore Society / Alan Dundes)</a> - A complementary 1-hour video address that synthesizes historical theoretical debates and defends the scientific and humanistic value of grand theory in the discipline.</p>
+<h3 id="folk-narrative-and-verbal-art">Folk Narrative and Verbal Art</h3>
+<p>This subject investigates major oral narrative genres, including myths, legends, folktales, and proverbs, alongside structural morphology and comparative tale-type classification systems.</p>
+<p><a href="https://ocw.mit.edu/courses/21l-430-popular-culture-and-narrative-use-and-abuse-of-the-fairy-tale-fall-2015/" target="_blank" rel="noopener noreferrer">Popular Culture and Narrative: Use and Abuse of the Fairy Tale (MIT OpenCourseWare / William Donaldson)</a> - The primary structured course for this subject, providing a complete university syllabus, lecture notes, and guided assignments on oral narrative and fairy-tale analysis.</p>
+<p><a href="https://archive.org/details/folktale0000thom_d2j8" target="_blank" rel="noopener noreferrer">The Folktale (Stith Thompson / Internet Archive)</a> - A foundational reference study to use alongside the MIT course, establishing the comparative historic-geographic method and motif/tale-type classification.</p>
+<p><a href="https://archive.org/details/morphologyoffolk0000prop" target="_blank" rel="noopener noreferrer">Morphology of the Folktale (Vladimir Propp / Internet Archive)</a> - A complementary structuralist classic to read after Thompson, analyzing wonder tales through thirty-one invariant sequential narrative functions.</p>
+<p><a href="https://archive.org/details/vanishinghitchhi00brun" target="_blank" rel="noopener noreferrer">The Vanishing Hitchhiker: American Urban Legends and Their Meanings (Jan Harold Brunvand / Internet Archive)</a> - A complementary modern case study showing how comparative narrative tools and motif analysis apply to urban legends and contemporary belief tales.</p>
+<h3 id="customary-lore-ritual-and-vernacular-belief">Customary Lore, Ritual, and Vernacular Belief</h3>
+<p>This subject explores calendar customs, rites of passage, vernacular religion, folk medicine, and ritualized festive behaviors within cultural communities.</p>
+<p><a href="https://archive.org/details/ritesofpassage0000genn" target="_blank" rel="noopener noreferrer">The Rites of Passage (Arnold van Gennep / Internet Archive)</a> - The core theoretical text for this subject, formulating the classic tripartite sequence of separation, transition (liminality), and incorporation in ritual.</p>
+<p><a href="https://archive.org/details/folklorefolklife0000unse" target="_blank" rel="noopener noreferrer">Folklore and Folklife: An Introduction (Richard M. Dorson / Internet Archive)</a> - A complementary genre survey; read Chapters 8 through 11 for authoritative overviews on folk religion, folk medicine, festivals, and traditional games.</p>
+<p><a href="https://archive.org/details/dynamicsoffolklo0000toel" target="_blank" rel="noopener noreferrer">The Dynamics of Folklore (Barre Toelken / Internet Archive)</a> - Provides complementary case studies to Van Gennep and Dorson; read Chapters 4 and 5 to examine how cultural worldview and vernacular belief systems operate in practice.</p>
+<h3 id="material-culture-and-folklife">Material Culture and Folklife</h3>
+<p>This subject analyzes physical traditional expressions, including folk craft, traditional art, vernacular architecture, and foodways, as tangible embodiments of community identity and values.</p>
+<p><a href="https://books.google.com/books?isbn=9780253335746" target="_blank" rel="noopener noreferrer">Material Culture (Henry Glassie)</a> - The primary theoretical monograph for this subject, exploring how handmade objects, tools, and vernacular architecture embody human consciousness and cultural history.</p>
+<p><a href="https://archive.org/details/folklorefolklife0000unse" target="_blank" rel="noopener noreferrer">Folklore and Folklife: An Introduction (Richard M. Dorson / Internet Archive)</a> - A practical complementary companion to Glassie; study Part II (Chapters 12–16) for foundational overviews of folk craft, traditional art, and architectural typologies.</p>
+<h3 id="digital-and-contemporary-folklore">Digital and Contemporary Folklore</h3>
+<p>This subject investigates the emergence and transmission of folklore in networked spaces, focusing on internet memes, creepypasta, participatory digital culture, and virtual folk groups.</p>
+<p><a href="https://digitalcommons.usu.edu/usupress_pubs/35/" target="_blank" rel="noopener noreferrer">Folklore and the Internet: Vernacular Expression in a Digital World (Trevor J. Blank, ed. / Utah State University Press)</a> - An open-access foundational reader analyzing how traditional folklore processes adapt to digital environments, featuring Lynne S. McNeill's seminal chapter "The End of the Internet."</p>
+<p><a href="https://books.google.com/books?isbn=9780262525435" target="_blank" rel="noopener noreferrer">Memes in Digital Culture (Limor Shifman)</a> - A concise, complementary study to Blank's anthology, providing a structured conceptual model for analyzing internet memes as dynamic units of vernacular expression.</p>
+<h3 id="ethnographic-fieldwork-and-cultural-documentation">Ethnographic Fieldwork and Cultural Documentation</h3>
+<p>This subject teaches practical field methodologies for cultural documentation, focusing on participant observation, ethnographic interviewing, audio-visual recording, and the ethics of community collaboration.</p>
+<p><a href="https://www.loc.gov/folklife/fieldwork/" target="_blank" rel="noopener noreferrer">Folklife and Fieldwork: An Introduction to Cultural Documentation, 4th Edition (Stephen Winick and Peter Bartis / Library of Congress)</a> - The primary practical field manual for cultural documentation, covering research design, ethics, interviewing techniques, audio-visual recording, and field logging.</p>
+<p><a href="https://archive.org/details/livingfolklorein0000sims" target="_blank" rel="noopener noreferrer">Living Folklore: An Introduction to the Study of People and Their Traditions (Martha Sims and Martine Stephens / Internet Archive)</a> - A complementary academic guide; read Chapters 6 and 7 for structured instructions on framing research questions, analyzing fieldwork data, and writing ethnographic folklore studies.</p>
+    </article>
+  </main>
 
 </body>
 </html>

@@ -1,179 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/folklore-studies/style.css">
-<meta name="description" content="">
+  <title>Advanced Topics in Folklore Studies</title>
+  <meta name="description" content="Advanced Topics in Folklore Studies curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/folklore-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/folklore-studies/advanced_topics.html">
+  <meta property="og:title" content="Advanced Topics in Folklore Studies">
+  <meta property="og:description" content="Advanced Topics in Folklore Studies curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/folklore-studies/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/folklore-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/folklore-studies/">Folklore-Studies</a>
-<a href="/folklore-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/folklore-studies/extras/courses.html">Extra Courses</a>
-<a href="/folklore-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/folklore-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/folklore-studies/">Folklore Studies</a></li>
+      <li><a href="/folklore-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/folklore-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/folklore-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/folklore-studies" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="advanced-topics">Advanced Topics</h1>
-<p>After completing sections I–IV, you have several directional paths you can choose from, depending on your interests. These are <strong>not</strong> required for a general understanding, but they allow you to go deeper in specific areas:</p>
+  <main id="main-content">
+    <article>
+
+<h1 id="advanced-topics-in-folklore-studies">Advanced Topics in Folklore Studies</h1>
+<p>Learners who have mastered the foundational genres, history, and field documentation methods of Folklore Studies can specialize in specific subdisciplines. These five tracks explore applied cultural policy, vernacular belief systems, digital participatory cultures, indigenous and diasporic epistemologies, and the linguistics of oral performance.</p>
+<h3 id="specialization-tracks">Specialization Tracks</h3>
 <ul>
-<li>
-<p>V. Regional, Ethnic, and Indigenous Traditions<br />
-  (focus: folklore across cultures, places, and peoples)</p>
-</li>
-<li>
-<p>VI. Applied and Public Folklore<br />
-  (focus: how folklore is used outside the university – museums, festivals, heritage work, public programs)</p>
-</li>
-<li>
-<p>VII. Contemporary and Digital Folklore<br />
-  (focus: folklore in modern life, cities, media, internet, and popular culture)</p>
-</li>
+<li><strong>Public Folklore, Cultural Policy, and Applied Folkloristics:</strong> Focuses on cultural conservation, intangible heritage governance, museum ethnography, and community advocacy.</li>
+<li><strong>Vernacular Religion, Belief Systems, and Contemporary Legend:</strong> Explores lived religious expressions, the experiential source hypothesis, contemporary legend dynamics, and collective anxieties.</li>
+<li><strong>Digital Folkloristics, Algorithmic Vernaculars, and Media Ecology:</strong> Investigates networked vernacular cultures, internet memetics, online antagonism, and the folkloric dynamics of platforms.</li>
+<li><strong>Indigenous Epistemologies, Decoloniality, and Diasporic Traditions:</strong> Examines sovereign indigenous narrative systems, decolonial research paradigms, and African diasporic cultural retention.</li>
+<li><strong>Ethnopoetics, Sociolinguistics, and Expressive Performance:</strong> Analyzes the poetic architecture of spoken narrative, the ethnography of speaking, language ideologies, and reflexive performance framing.</li>
 </ul>
-<h2 id="regional-ethnic-and-indigenous-traditions">Regional, Ethnic, and Indigenous Traditions</h2>
-<h3 id="14-comparative-folklore">14. Comparative Folklore</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Cross-cultural comparison</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/folklorefolklife0000unse">Dorson, <em>Folklore and Folklife</em> (Archive.org)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="15-american-and-diasporic-folklore">15. American and Diasporic Folklore</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Occupational, ethnic, immigrant traditions</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.loc.gov/collections/american-folklife-center/about-this-collection/">Library of Congress – American Folklife Collections</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="16-indigenous-traditions">16. Indigenous Traditions</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Oral traditions, ethics, sovereignty</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/comingtolightcon00bria">Brian Swann (ed.), <em>Coming to Light</em> (Archive.org)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="applied-and-public-folklore">Applied and Public Folklore</h2>
-<h3 id="17-public-folklore-and-cultural-heritage">17. Public Folklore and Cultural Heritage</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Museums, festivals, policy</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://folklife.si.edu/">Smithsonian Center for Folklife &amp; Cultural Heritage (open materials)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="18-folklore-in-museums-and-archives">18. Folklore in Museums and Archives</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Curation, interpretation, access</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://folklife.si.edu/">Smithsonian + Library of Congress case studies</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="contemporary-and-digital-folklore">Contemporary and Digital Folklore</h2>
-<h3 id="19-urban-legends-and-contemporary-belief">19. Urban Legends and Contemporary Belief</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Modern legend cycles, rumor</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/vanishinghitchhi00brun">Jan Harold Brunvand, <em>The Vanishing Hitchhiker</em> (Archive.org)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="20-digital-and-internet-folklore">20. Digital and Internet Folklore</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Memes, creepypasta, online communities</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://digitalcommons.usu.edu/usupress_pubs/31/">Trevor J. Blank (ed.), <em>Folklore and the Internet</em></a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="21-folklore-popular-culture-and-media">21. Folklore, Popular Culture, and Media</h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Adaptation, commodification, remix</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://folklife.si.edu/talkstory">Brunvand + Smithsonian media folklore essays</a></strong></td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<h2 id="public-folklore-cultural-policy-and-applied-folkloristics">Public Folklore, Cultural Policy, and Applied Folkloristics</h2>
+<p>Explores the application of folkloristic expertise to cultural conservation, public programming, heritage policy, and community advocacy outside the academy.</p>
+<p>Intangible Cultural Heritage and Sustainable Development: <a href="https://www.edx.org/learn/sustainable-development/sdg-academy-living-heritage-and-sustainable-development" target="_blank" rel="noopener noreferrer">Living Heritage and Sustainable Development (UNESCO / SDG Academy / edX)</a> - An online course covering the 2003 UNESCO Convention, participatory safeguarding, and the integration of living traditions into community development.</p>
+<p>Public Sector Folklore and Cultural Conservation: <a href="https://archive.org/details/publicfolklore0000unse" target="_blank" rel="noopener noreferrer">Public Folklore (Robert Baron and Nicholas R. Spitzer, eds. / Internet Archive)</a> - A seminal collection examining the role of folklorists in state arts agencies, national parks, and public festivals, addressing representation, advocacy, and cultural conservation.</p>
+<p>Critical Heritage Studies and Display Politics: <a href="https://archive.org/details/destinationcultu0000kirs" target="_blank" rel="noopener noreferrer">Destination Culture: Tourism, Museums, and Heritage (Barbara Kirshenblatt-Gimblett / Internet Archive)</a> - A critical text analyzing how cultural performance, ethnographic objects, and living heritage are produced, staged, and consumed in museum exhibitions and tourist economies.</p>
+<p>Collaborative Curation and Environmental Folklife: <a href="https://books.google.com/books?isbn=9780252063541" target="_blank" rel="noopener noreferrer">Conserving Culture: A New Approach to Heritage Planning (Mary Hufford, ed.)</a> - Examines cultural conservation as an ecosystemic practice, demonstrating how folklorists collaborate with communities to safeguard cultural landscapes and traditional livelihoods.</p>
+<h2 id="vernacular-religion-belief-systems-and-contemporary-legend">Vernacular Religion, Belief Systems, and Contemporary Legend</h2>
+<p>Investigates lived religious expression, supernatural assault experiences, contemporary legend dynamics, and the dialectics of belief in everyday contexts.</p>
+<p>The Experiential Source Hypothesis: <a href="https://archive.org/details/terrorthatcomesi00huff" target="_blank" rel="noopener noreferrer">The Terror That Comes in the Night: An Experience-Centered Study of Supernatural Assault Traditions (David J. Hufford / Internet Archive)</a> - A landmark phenomenological study establishing that supernatural assault traditions often derive from cross-culturally consistent sleep paralysis events rather than cultural conditioning alone.</p>
+<p>Vernacular Religion and Lived Belief: "Vernacular Religion and the Search for Method in Religious Folklife" (Leonard Norman Primiano, Western Folklore) - A groundbreaking theoretical essay redefining folk religion as lived, idiosyncratic belief, shifting scholarly focus from institutional dogma to individual religious practice.</p>
+<p>Contemporary Legend and Rumor Epistemologies: <a href="https://books.google.com/books?isbn=9780253339294" target="_blank" rel="noopener noreferrer">Legend and Belief: Dialectics of a Folklore Genre (Linda Dégh)</a> - An exhaustive investigation into how contemporary legends circulate, debate contested truths, and articulate collective cultural anxieties.</p>
+<p>Ostension and Ghost Hunting in Popular Culture: <a href="https://digitalcommons.usu.edu/usupress_pubs/18/" target="_blank" rel="noopener noreferrer">Haunting Experiences: Ghosts in Contemporary Folklore (Diane E. Goldstein, Sylvia Ann Grider, and Jeannie Banks Thomas / Utah State University Press)</a> - An open-access study examining contemporary ghostlore, paranormal investigation subcultures, and the commodification of supernatural narratives in modern mass media.</p>
+<h2 id="digital-folkloristics-algorithmic-vernaculars-and-media-ecology">Digital Folkloristics, Algorithmic Vernaculars, and Media Ecology</h2>
+<p>Analyzes how networked digital technologies, algorithmic sorting, and participatory media platforms reshape folkloric transmission, memetics, and vernacular authority.</p>
+<p>Algorithmic Vernaculars and Platform Folklore: <a href="https://books.google.com/books?isbn=9780874218992" target="_blank" rel="noopener noreferrer">Tradition in the Twenty-First Century: Locating the Folk in a Digital Age (Trevor J. Blank and Robert Glenn Howard, eds.)</a> - Investigates how traditional folklore processes adapt to digital ecosystems, analyzing vernacular authority, digital performance, and mediated expressive culture.</p>
+<p>Digital Antagonism and Vernacular Play: <a href="https://books.google.com/books?isbn=9781509501267" target="_blank" rel="noopener noreferrer">The Ambivalent Internet: Mischief, Oddity, and Antagonism Online (Whitney Phillips and Ryan M. Milner)</a> - Examines memetics, trolling, and digital humor to demonstrate how vernacular online expression generates both playful solidarity and targeted harm.</p>
+<p>Memetics and Participatory Culture: <a href="https://books.google.com/books?isbn=9780262525435" target="_blank" rel="noopener noreferrer">Memes in Digital Culture (Limor Shifman)</a> - An analytical framework for understanding internet memes as dynamic cultural artifacts governed by imitation, variation, and participatory user engagement.</p>
+<p>Digital Archaeology of Early Web Vernaculars: <a href="https://www.youtube.com/watch?v=AetzK1FbGHI" target="_blank" rel="noopener noreferrer">olia lialina: The Only Thing We Know About Cyberspace Is That Its 640x480 (Media.ccc.de / YouTube)</a> - A specialist lecture on early web vernaculars, amateur homepages, and the methodology of preserving born-digital folklore.</p>
+<h2 id="indigenous-epistemologies-decoloniality-and-diasporic-traditions">Indigenous Epistemologies, Decoloniality, and Diasporic Traditions</h2>
+<p>Explores sovereign indigenous narrative systems, decolonial ethnographic methodologies, and the politics of cultural retention and resistance across diasporic communities.</p>
+<p>Indigenous Landscape, Language, and Place-Making: <a href="https://books.google.com/books?isbn=9780826317247" target="_blank" rel="noopener noreferrer">Wisdom Sits in Places: Landscape and Language Among the Western Apache (Keith H. Basso)</a> - An ethnography illustrating how Apache geographical names anchor ancestral moral narratives, cultural history, and community identity to physical landscapes.</p>
+<p>Decolonial Methodologies and Cultural Sovereignty: <a href="https://archive.org/details/decolonizingmeth0000smit" target="_blank" rel="noopener noreferrer">Decolonizing Methodologies: Research and Indigenous Peoples (Linda Tuhiwai Smith / Internet Archive)</a> - A foundational critique of colonial extraction in ethnographic collecting, offering decolonial research paradigms and indigenous intellectual property protections.</p>
+<p>Indigenous Worldviews and Oral Traditions: <a href="https://www.coursera.org/learn/indigenous-canada" target="_blank" rel="noopener noreferrer">Indigenous Canada (University of Alberta / Coursera)</a> - A university course exploring indigenous worldviews, oral narratives, and contemporary political resistance from First Nations, Métis, and Inuit perspectives.</p>
+<p>African Diasporic Folklore, Creolization, and Resistance: <a href="https://archive.org/details/manofwordsinwest1983abra" target="_blank" rel="noopener noreferrer">The Man-of-Words in the West Indies: Performance and the Communication of Poetics (Roger D. Abrahams / Internet Archive)</a> - An ethnographic study of Afro-Caribbean verbal art, exploring how oral rhetoric, performative competence, and creolization operate as acts of cultural resistance.</p>
+<h2 id="ethnopoetics-sociolinguistics-and-expressive-performance">Ethnopoetics, Sociolinguistics, and Expressive Performance</h2>
+<p>Investigates the poetic architecture of spoken narrative, the sociolinguistics of vernacular registers, and performance-centered approaches to communicative events.</p>
+<p>Structural Ethnopoetics and Oral Verse Transcription: <a href="https://archive.org/details/invainitriedtote0000hyme" target="_blank" rel="noopener noreferrer">"In Vain I Tried to Tell You": Essays in Native American Ethnopoetics (Dell Hymes / Internet Archive)</a> - Foundational essays formulating structural ethnopoetics, showing how oral narratives are organized into measured lines and verses rather than prose paragraphs.</p>
+<p>Structural Ethnopoetics and Oral Verse Transcription: <a href="https://archive.org/details/spokenwordworkof0000tedl" target="_blank" rel="noopener noreferrer">The Spoken Word and the Work of Interpretation (Dennis Tedlock / Internet Archive)</a> - Demonstrates acoustic and phenomenological transcription methods, capturing pauses, intonations, and audible breath in live oral performances.</p>
+<p>The Ethnography of Speaking and Vernacular Interaction: <a href="https://onlinecourses.nptel.ac.in/noc26_hs01/preview" target="_blank" rel="noopener noreferrer">Ethnography of Speaking (NPTEL / Swayam / IIT Guwahati)</a> - A comprehensive university course exploring language as social action, communicative competence, speech acts, and sociolinguistic variation across cultural communities.</p>
+<p>Language Ideologies and the Politics of Representation: <a href="https://archive.org/details/voicesofmodernit0000baum" target="_blank" rel="noopener noreferrer">Voices of Modernity: Language Ideologies and the Politics of Inequality (Richard Bauman and Charles L. Briggs / Internet Archive)</a> - Analyzes how historical language ideologies in folklore collection constructed the "traditional" other and reinforced social inequality.</p>
+<p>Contextual Event Analysis and Metanarration: <a href="https://books.google.com/books?isbn=9780521311113" target="_blank" rel="noopener noreferrer">Story, Performance, and Event: Contextual Studies of Oral Narrative (Richard Bauman)</a> - An advanced performance-theory study examining how storytellers contextualize events, manage audience expectations, and reflexively navigate narrative framing.</p>
+    </article>
+  </main>
 
 </body>
 </html>

@@ -1,122 +1,449 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Great Readings</title>
-<link rel="stylesheet" href="/folklore-studies/style.css">
-<meta name="description" content="">
+  <title>Great Readings in Folklore Studies</title>
+  <meta name="description" content="Great Readings in Folklore Studies curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/folklore-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/folklore-studies/extras/readings.html">
+  <meta property="og:title" content="Great Readings in Folklore Studies">
+  <meta property="og:description" content="Great Readings in Folklore Studies curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/folklore-studies/extras/readings.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Great Readings">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/folklore-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/folklore-studies/">Folklore-Studies</a>
-<a href="/folklore-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/folklore-studies/extras/courses.html">Extra Courses</a>
-<a href="/folklore-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/folklore-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/folklore-studies/">Folklore Studies</a></li>
+      <li><a href="/folklore-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/folklore-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/folklore-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/folklore-studies" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="great-readings">Great Readings</h1>
-<p>This document consists of great books or articles on Folklore Studies.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.</p>
-<p>Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.</p>
-<h2 id="introductory-and-general-folklore">Introductory and General Folklore</h2>
-<table>
+  <main id="main-content">
+    <article>
+
+<h1 id="great-readings-in-folklore-studies">Great Readings in Folklore Studies</h1>
+<p>This curated reading list features the discipline-defining monographs, landmark theoretical papers, and seminal ethnographic studies that have shaped modern folkloristics. These works illustrate how folklorists analyze informal expressive culture, vernacular belief systems, artistic performance, and community traditions.</p>
+<h2 id="foundations-functions-and-disciplinary-paradigms">Foundations, Functions, and Disciplinary Paradigms</h2>
+<p>| Title | Author(s) |uniquestream.net
+| :--- | :--- |
+| <a href="https://archive.org/details/morphologyoffolk0000prop" target="_blank" rel="noopener noreferrer"><em>Morphology of the Folktale</em></a> | Vladimir Propp |
+| <a href="https://archive.org/details/ritesofpassage0000arno" target="_blank" rel="noopener noreferrer"><em>The Rites of Passage</em></a> | Arnold van Gennep |
+| <a href="https://chs.harvard.edu/book/lord-albert-bates-the-singer-of-tales/" target="_blank" rel="noopener noreferrer"><em>The Singer of Tales</em></a> | Albert B. Lord |
+| <a href="https://archive.org/details/studyoffolklore00dund" target="_blank" rel="noopener noreferrer">“Four Functions of Folklore” in <em>The Study of Folklore</em></a> | William R. Bascom |
+| <a href="https://books.google.com/books?isbn=9780299155445" target="_blank" rel="noopener noreferrer"><em>In Search of Authenticity: The Formation of Folklore Studies</em></a> | Regina Bendix |
+| <a href="https://archive.org/details/studyoffolklore00dund" target="_blank" rel="noopener noreferrer"><em>The Study of Folklore</em></a> | Alan Dundes (ed.) |</p>
+<h2 id="performance-context-and-sociolinguistic-ethnography">Performance, Context, and Sociolinguistic Ethnography</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Living-Folklore-Introduction-People-Traditions/dp/0874218444">Living Folklore: An Introduction to the Study of People and Their Traditions</a></td>
-<td style="text-align: center;">Martha C. Sims and Martine Stephens</td>
+<td style="text-align: left;"><a href="https://archive.org/details/verbalartasperfo0000baum" target="_blank" rel="noopener noreferrer"><em>Verbal Art as Performance</em></a></td>
+<td style="text-align: left;">Richard Bauman</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Folklore-Rules-Useful-Introduction-Academic/dp/0874219033">Folklore Rules: A Fun, Quick, and Useful Introduction to the Field</a></td>
-<td style="text-align: center;">Lynne S. McNeill</td>
+<td style="text-align: left;"><a href="https://archive.org/details/towardnewperspec00pare" target="_blank" rel="noopener noreferrer">“Toward a Definition of Folklore in Context” in <em>Toward New Perspectives in Folklore</em></a></td>
+<td style="text-align: left;">Dan Ben-Amos</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://archive.org/details/invainitriedtote0000hyme" target="_blank" rel="noopener noreferrer"><em>"In Vain I Tried to Tell You": Essays in Native American Ethnopoetics</em></a></td>
+<td style="text-align: left;">Dell Hymes</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780826317247" target="_blank" rel="noopener noreferrer"><em>Wisdom Sits in Places: Landscape and Language Among the Western Apache</em></a></td>
+<td style="text-align: left;">Keith H. Basso</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://archive.org/details/voicesofmodernit0000baum" target="_blank" rel="noopener noreferrer"><em>Voices of Modernity: Language Ideologies and the Politics of Inequality</em></a></td>
+<td style="text-align: left;">Richard Bauman and Charles L. Briggs</td>
 </tr>
 </tbody>
-</table>
-<h2 id="narrative-and-fairy-tales">Narrative and Fairy Tales</h2>
-<table>
+</table></div>
+<h2 id="narrative-theory-fairy-tales-and-contemporary-legendry">Narrative Theory, Fairy Tales, and Contemporary Legendry</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Italian-Folktales-Italo-Calvino/dp/0156454890">Italian Folktales</a></td>
-<td style="text-align: center;">Italo Calvino</td>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780253339294" target="_blank" rel="noopener noreferrer"><em>Legend and Belief: Dialectics of a Folklore Genre</em></a></td>
+<td style="text-align: left;">Linda Dégh</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Uses-Enchantment-Meaning-Importance-Fairy/dp/0307739635">The Uses of Enchantment: The Meaning and Importance of Fairy Tales</a></td>
-<td style="text-align: center;">Bruno Bettelheim</td>
+<td style="text-align: left;"><a href="https://archive.org/details/europeanfolktale0000lthi" target="_blank" rel="noopener noreferrer"><em>The European Folktale: Form and Nature</em></a></td>
+<td style="text-align: left;">Max Lüthi</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://archive.org/details/fairytalesartofs0000zipe" target="_blank" rel="noopener noreferrer"><em>Fairy Tales and the Art of Subversion: The Classical Genre for Children and the Process of Civilization</em></a></td>
+<td style="text-align: left;">Jack Zipes</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://archive.org/details/vanishinghitchhi00brun" target="_blank" rel="noopener noreferrer"><em>The Vanishing Hitchhiker: American Urban Legends and Their Meanings</em></a></td>
+<td style="text-align: left;">Jan Harold Brunvand</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9781578063253" target="_blank" rel="noopener noreferrer"><em>Aliens, Ghosts, and Cults: Legends We Live</em></a></td>
+<td style="text-align: left;">Bill Ellis</td>
 </tr>
 </tbody>
-</table>
-<h2 id="urban-and-contemporary-legends">Urban and Contemporary Legends</h2>
-<table>
+</table></div>
+<h2 id="vernacular-religion-belief-and-experiential-traditions">Vernacular Religion, Belief, and Experiential Traditions</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Vanishing-Hitchhiker-American-Urban-Legends/dp/0393951693">The Vanishing Hitchhiker: American Urban Legends and Their Meanings</a></td>
-<td style="text-align: center;">Jan Harold Brunvand</td>
+<td style="text-align: left;"><a href="https://archive.org/details/terrorthatcomesi0000huff" target="_blank" rel="noopener noreferrer"><em>The Terror That Comes in the Night: An Experience-Centered Study of Supernatural Assault Traditions</em></a></td>
+<td style="text-align: left;">David J. Hufford</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Too-Good-True-Colossal-Urban/dp/039334715X">Too Good to Be True: The Colossal Book of Urban Legends</a></td>
-<td style="text-align: center;">Jan Harold Brunvand</td>
+<td style="text-align: left;"><a href="https://digitalcommons.usu.edu/usupress_pubs/18/" target="_blank" rel="noopener noreferrer"><em>Haunting Experiences: Ghosts in Contemporary Folklore</em></a></td>
+<td style="text-align: left;">Diane E. Goldstein, Sylvia Ann Grider, and Jeannie Banks Thomas</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://digitalcommons.usu.edu/usupress_pubs/54/" target="_blank" rel="noopener noreferrer"><em>The Marrow of Human Experience: Essays on Folklore</em></a></td>
+<td style="text-align: left;">William A. Wilson</td>
 </tr>
 </tbody>
-</table>
-<h2 id="collections-and-anthologies">Collections and Anthologies</h2>
-<table>
+</table></div>
+<h2 id="folklife-material-culture-and-digital-vernaculars">Folklife, Material Culture, and Digital Vernaculars</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Dictionary-English-Folklore-Jacqueline-Simpson/dp/0198607660">A Dictionary of English Folklore</a></td>
-<td style="text-align: center;">Jacqueline Simpson and Steve Roud</td>
+<td style="text-align: left;"><a href="https://archive.org/details/passingtimeinbal0000glas" target="_blank" rel="noopener noreferrer"><em>Passing the Time in Ballymenone: Culture and History of an Ulster Community</em></a></td>
+<td style="text-align: left;">Henry Glassie</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/africanfolktales0000abrah">African Folktales</a> (free on Archive.org)</td>
-<td style="text-align: center;">Roger D. Abrahams</td>
+<td style="text-align: left;"><a href="https://archive.org/details/destinationcultu0000kirs" target="_blank" rel="noopener noreferrer"><em>Destination Culture: Tourism, Museums, and Heritage</em></a></td>
+<td style="text-align: left;">Barbara Kirshenblatt-Gimblett</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://archive.org/details/manofwordsinwest1983abra" target="_blank" rel="noopener noreferrer"><em>The Man-of-Words in the West Indies: Performance and the Communication of Poetics</em></a></td>
+<td style="text-align: left;">Roger D. Abrahams</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://digitalcommons.usu.edu/usupress_pubs/35/" target="_blank" rel="noopener noreferrer"><em>Folklore and the Internet: Vernacular Expression in a Digital World</em></a></td>
+<td style="text-align: left;">Trevor J. Blank (ed.)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780262525435" target="_blank" rel="noopener noreferrer"><em>Memes in Digital Culture</em></a></td>
+<td style="text-align: left;">Limor Shifman</td>
 </tr>
 </tbody>
-</table>
-</article>
-</main>
+</table></div>
+    </article>
+  </main>
 
 </body>
 </html>
